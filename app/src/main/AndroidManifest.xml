@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="per.macc.ahback">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.AdminActivity"/>
+        <activity android:name=".activity.AddOpActivity"/>
+        <activity android:name=".activity.UpdelOpActivity"/>
+        <activity android:name=".activity.UpdateOpActivity"/>
+        <activity android:name=".activity.AddRtActivity"/>
+        <activity android:name=".activity.UpdelRtActivity"/>
+        <activity android:name=".activity.UpdateRtActivity"/>
+        <activity android:name=".activity.ManageRoomActivity"/>
+    </application>
+    <!--网络访问权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 指纹识别 -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+</manifest>

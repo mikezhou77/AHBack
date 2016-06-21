@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="yellow">#FFA500</color>
+    <color name="lightyellow">#FFB90F</color>
+    <color name="tablayoutyellow">#FFC300</color>
+    <color name="deepyellow">#FF7F24</color>
+
+
+    <color name="red">#FF0000</color>
+    <color name="deepred">#DD0000</color>
+    <color name="deepred2">#AA0000</color>
+
+    <color name="lightblue">#09C7F7</color>
+    <color name="deepblue">#08ACD6</color>
+
+    <color name="lightgreen">#00CD66</color>
+    <color name="deepgreen">#008B00</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#AAAAAA</color>
+
+    <color name="black">#000000</color>
+
+
+</resources>
